@@ -11,20 +11,26 @@ if (number1, number2, number3 < (Number.MIN_SAFE_INTEGER) || number1, number2, n
 } else if (number1 == number2 & number2 == number3) {
       console.log("\nEqual.\n")
       //Tests the numbers to see if they are equal
+
 } else if (number1 > number2 && number2 > number3) {
       console.log("\nStrictly decreasing.\n")
       //All numbers are less than each other in order
+
 } else if (number1 < number2 && number2 < number3) {
       console.log("\nStrictly increasing.\n")
 //All numbers are greater thatn each other in order
+
 } else if (number1 >= number2 && number2 >= number3) {
       console.log("\nDecreasing.\n")
-//Numbers may be eqaul or
+//Numbers may be eqaul or less than the previous number
+
 } else if (number1 <= number2 && number2 <= number3) {
       console.log("\nIncreasing.\n")
+//Numbers may equal or greater than the previous number
 
 } else if ((number1 >= number2 && number2 <= number3) || (number1 <= number2 && number2 >= number3)) {
       console.log("\nUnordered.\n")
+//Numbers are out of order
 
 } else {
       console.log("\nInvalid.\n")
