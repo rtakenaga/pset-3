@@ -14,6 +14,8 @@ if (firstRank <=2 || firstRank >= 9) {
   console.log("\nInvalid.")
 }
 
+//This operator checks each cenario and if any of them are true, it moves onto the next if statement.
+//It is an easier way to write all of the different cases without having to make an else if statement for each of them. 
 else{
   switch (firstRank) {
   case "2":

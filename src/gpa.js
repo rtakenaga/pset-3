@@ -2,6 +2,9 @@ const readlineSync = require("readline-sync");
 
 const grade = String(readlineSync.question("\nEnter a letter grade: "));
 
+//Tests for what the grade the user inputed
+//The Uppercase and Lowercase variations are used in this case
+
 if (grade == "A+" || grade == "A" || grade == "a+" || grade == "a") {
       console.log("\nYour GPA is 4.00.\n")
 

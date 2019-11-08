@@ -2,7 +2,7 @@ const readlineSync = require("readline-sync");
 
 const grade = Number(readlineSync.question("\nEnter a grade: "));
 
-
+//Variables to represent the thresholds
 const highA = 100;
 const lowA = 90;
 const highB = 89;

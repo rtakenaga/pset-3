@@ -15,5 +15,5 @@ const year = Number(readlineSync.question("\nEnter a year: "));
 
   } else {
     console.log("\n" + year + " is not a leap year.")
-    
+    //If the year is not divisible by 4, it is not a leap year 
   }

@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
 
 
-const number1 = Number(readlineSync.question("\nEnter three numbers.\n"));
+const number1 = Number(readlineSync.question("\nEnter three numbers.\n\n"));
 const number2 = Number(readlineSync.question(""));
 const number3 = Number(readlineSync.question(""));
 

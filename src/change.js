@@ -13,9 +13,9 @@ penny = 0.01
 
 //Tests the number and gives a different result depending on the number
 if (Number.isNaN(amount)) {
-    console.log("Invalid");
+    console.log("\nInvalid.");
 } else if (amount < MIN || amount > MAX) {
-    console.log("Invalid");
+    console.log("\nInvalid.");
 } else {
 
     let Quarters = Math.floor(amount/quarter);

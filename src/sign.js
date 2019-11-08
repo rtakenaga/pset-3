@@ -6,18 +6,18 @@ if (!Number.isInteger(number)){
   console.log("\nInvaild\n")
 
 }else if (number < 0 ){
-  console.log("\nNegative\n")
+  console.log("\nNegative.\n")
 
 } else if (number > 0){
-  console.log("\nPositive\n")
+  console.log("\nPositive.\n")
 
 }else if (number == 0){
-  console.log("\nZero\n")
+  console.log("\nZero.\n")
 
 }else if (number < (Number.MIN_SAFE_INTEGER)){
-  console.log("\nInvaild\n")
+  console.log("\nInvaild.\n")
 
 }else if (number > (Number.MAX_SAFE_INTEGER)){
-  console.log("\nInvaild\n")
+  console.log("\nInvaild.\n")
 
 }

@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
 
 const month = readlineSync.question("\nEnter a month: ").toLowerCase();
-
+//Suports both cases of the months
 if ((month === "jan") || (month === "january")) {
     console.log("\n31 days.")
 
